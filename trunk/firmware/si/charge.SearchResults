@@ -1,0 +1,11 @@
+---- Bat0_DischargeMachine Matches (10 in 5 files) ----
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):    Bat0_DischargeMachine = Battery_Insert_Test;  //放电状态机初始化为1
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):        if( Battery_Discharging == Bat0_DischargeMachine )  
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):    switch(Bat0_DischargeMachine)
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):                Bat0_DischargeMachine = Battery_Discharging;  
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):                Bat0_DischargeMachine = Battery_Wait_For_Remove;
+Charge.c (d:\stm32\project\ange\charge\codechargerv0.072\src):                Bat0_DischargeMachine = Battery_Insert_Test; 
+Key.c (d:\stm32\project\ange\charge\codechargerv0.072\src):                        Bat0_DischargeMachine = Battery_Insert_Test; // 放电状态机初始化为1			
+Logic.c (d:\stm32\project\ange\charge\codechargerv0.072\src):        Battery_Discharging == Bat0_DischargeMachine )
+Menu.c (d:\stm32\project\ange\charge\codechargerv0.072\src):                        if( Battery_Discharging == Bat0_DischargeMachine )
+Para.h (d:\stm32\project\ange\charge\codechargerv0.072\src):#define Bat0_DischargeMachine	status[9]    // 电池 0 放电状态机
