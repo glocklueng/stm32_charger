@@ -1,0 +1,85 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (ChargerV1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Src),1,0,0
+GRPOPT 2,(Libraries),0,0,0
+GRPOPT 3,(CMSIS),0,0,0
+
+OPTFFF 1,1,1,486539266,0,239,248,0,<.\Src\main.c><main.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,226,255,255,255,0,0,0,0,0,0,0,0,154,2,0,0,80,0,0,0 }
+OPTFFF 1,2,1,0,0,0,0,0,<.\Src\stm32f10x_it.c><stm32f10x_it.c> 
+OPTFFF 1,3,1,100663296,0,0,0,0,<.\Src\lcd5110.c><lcd5110.c> 
+OPTFFF 1,4,1,0,0,0,0,0,<.\Src\pid.c><pid.c> 
+OPTFFF 1,5,1,1124073472,0,0,0,0,<.\Src\charge.c><charge.c> 
+OPTFFF 1,6,1,1124073472,0,0,0,0,<.\Src\adc.c><adc.c> 
+OPTFFF 1,7,1,0,0,0,0,0,<.\Src\gpio.c><gpio.c> 
+OPTFFF 1,8,1,0,0,0,0,0,<.\Src\ziku.c><ziku.c> 
+OPTFFF 1,9,1,167772160,0,0,0,0,<.\Src\pwm.c><pwm.c> 
+OPTFFF 1,10,1,0,0,0,0,0,<.\Src\menu.c><menu.c> 
+OPTFFF 1,11,1,0,0,0,0,0,<.\Src\uart.c><uart.c> 
+OPTFFF 1,12,1,0,0,0,0,0,<.\Src\logic.c><logic.c> 
+OPTFFF 1,13,1,268435456,0,0,0,0,<.\Src\key.c><key.c> 
+OPTFFF 1,14,1,1023410176,0,0,0,0,<.\Src\eeprom.c><eeprom.c> 
+OPTFFF 2,15,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c><misc.c> 
+OPTFFF 2,16,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c><stm32f10x_adc.c> 
+OPTFFF 2,17,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 2,18,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c><stm32f10x_can.c> 
+OPTFFF 2,19,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c><stm32f10x_crc.c> 
+OPTFFF 2,20,1,587202560,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c><stm32f10x_dac.c> 
+OPTFFF 2,21,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c><stm32f10x_dbgmcu.c> 
+OPTFFF 2,22,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 2,23,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c><stm32f10x_exti.c> 
+OPTFFF 2,24,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c><stm32f10x_flash.c> 
+OPTFFF 2,25,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c><stm32f10x_fsmc.c> 
+OPTFFF 2,26,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 2,27,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c><stm32f10x_i2c.c> 
+OPTFFF 2,28,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c><stm32f10x_iwdg.c> 
+OPTFFF 2,29,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 2,30,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 2,31,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 2,32,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c><stm32f10x_sdio.c> 
+OPTFFF 2,33,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 2,34,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 2,35,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 2,36,1,0,0,0,0,0,<.\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c><stm32f10x_wwdg.c> 
+OPTFFF 3,37,1,0,0,0,0,0,<.\Libraries\CMSIS\Core\CM3\core_cm3.c><core_cm3.c> 
+OPTFFF 3,38,1,318767104,0,0,0,0,<.\Libraries\CMSIS\Core\CM3\system_stm32f10x.c><system_stm32f10x.c> 
+OPTFFF 3,39,2,0,0,0,0,0,<.\Libraries\CMSIS\Core\CM3\startup\arm\startup_stm32f10x_md.s><startup_stm32f10x_md.s> 
+
+
+TARGOPT 1, (ChargerV1)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\Obj\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F102C8)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F102C8)
+  OPTDBG 49150,7,()()()()()()()()()() (Segger\JL2CM3.dll)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=75,100,486,498,0)(121=869,195,1280,593,0)(123=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0))
+  OPTKEY 0,(DLGUARM)((105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(UL2CM3)(-UDDDDDDDD -O142 -S8 -C0 -N00("ARM CoreSight JTAG-DP") -D00(3BA00477) -L00(4) -N01("Unknown JTAG device") -D01(06414041) -L01(5) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -FO7 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000)
+  OPTKEY 0,(JL2CM3)(-U12345678 -O718 -S8 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(4) -TO18 -TC10000000 -TP21 -TDS8004 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TRE0 -FO11 -FD20000000 -FC800 -FN1 -FF0STM32F10x_128 -FS08000000 -FL020000)
+  OPTKEY 0,(DLGDARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=222,140,588,362,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=516,235,927,648,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=504,23,1088,760,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(234=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)(-T0)
+  OPTWA 0,1,(SoftTimer)
+  OPTWA 1,1,(P500usReq)
+  OPTWA 0,2,(status)
+  OPTWA 1,2,(cursor_y)
+  OPTDF 0x80
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
